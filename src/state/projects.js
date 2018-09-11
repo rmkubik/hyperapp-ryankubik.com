@@ -2,7 +2,7 @@ export default {
   eclipse: {
     title: 'Eclipse',
     thumbnail: {
-      blurb: 'Blurb about Eclipse',
+      blurb: 'Enjoy the view!',
       src: 'assets/images/projects/eclipse.png',
     },
     link: 'https://law5guy.itch.io/eclipse',
