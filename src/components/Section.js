@@ -10,6 +10,7 @@ export default ({ id, title, projects }) => (
         title={project.title}
         src={project.thumbnail.src}
         blurb={project.thumbnail.blurb}
+        link={project.link}
       />
     ))}
   </section>
