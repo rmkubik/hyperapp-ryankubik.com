@@ -8,6 +8,6 @@ export default (state, actions) => (
   <div class="root">
     <Nav state={state.nav} />
     <Main />
-    <Footer />
+    <Footer state={state.footer} />
   </div>
 );
