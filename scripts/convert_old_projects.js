@@ -8,6 +8,7 @@ const projects = old.map(section =>
       src: project.img,
       blurb: project.desc,
     },
+    link: project.href,
   })));
 
 function flattenDeep(arr1) {
@@ -18,6 +19,8 @@ function flattenDeep(arr1) {
 }
 
 const flattenedProjects = flattenDeep(projects);
+
+console.log(flattenedProjects.map(proj => proj.link));
 
 const projectMap = {};
 flattenedProjects.forEach((project) => {
