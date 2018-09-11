@@ -5,6 +5,15 @@ export default ({ state: { title, links } }) => (
     <h1>
       <a href={title.link}>{title.text}</a>
     </h1>
-    {links.map(link => <a href={link.link}>{link.text}</a>)}
+    {links.map(link => (
+      <a href={link.link}>
+        <div
+          oncreate={(e) => {
+            e.innerHTML = link.icon;
+          }}
+        />
+        {link.text}
+      </a>
+    ))}
   </nav>
 );
