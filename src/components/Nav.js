@@ -1,13 +1,10 @@
 import { h } from 'hyperapp';
 
-export default (state, actions) => (
+export default ({ state: { title, links } }) => (
   <nav>
     <h1>
-      <a href="/">Ryan Kubik</a>
+      <a href={title.link}>{title.text}</a>
     </h1>
-    <a href="/">Writing</a>
-    <a href="/">Code</a>
-    <a href="/">Contact</a>
-    <a href="/">Mailing List</a>
+    {links.map(link => <a href={link.link}>{link.text}</a>)}
   </nav>
 );

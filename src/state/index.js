@@ -1,3 +1,5 @@
+import nav from './nav';
+
 export default {
-  num: 0,
+  nav,
 };
