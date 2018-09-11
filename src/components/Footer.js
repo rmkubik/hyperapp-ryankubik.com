@@ -4,7 +4,11 @@ import MailingListSignUp from './MailingListSignUp';
 
 export default ({ state: { links } }) => (
   <footer>
-    {links.map(link => <a href={link.link}>{link.text}</a>)}
+    {links.map(link => (
+      <div>
+        <a href={link.link}>{link.text}</a>
+      </div>
+    ))}
     <MailingListSignUp />
   </footer>
 );
