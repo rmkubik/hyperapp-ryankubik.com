@@ -2,6 +2,7 @@ import writingIconImage from '../../assets/images/icons/pencil.svg';
 import githubIconImage from '../../assets/images/icons/github.svg';
 import twitterIconImage from '../../assets/images/icons/twitter.svg';
 import envelopeIconImage from '../../assets/images/icons/envelope-closed.svg';
+import envelopeOpenIconImage from '../../assets/images/icons/envelope-open.svg';
 
 export default {
   title: {
@@ -32,7 +33,7 @@ export default {
     {
       text: 'Mailing List',
       link: 'https://r-k.io/mail.html',
-      icon: envelopeIconImage,
+      icon: envelopeOpenIconImage,
     },
   ],
 };
