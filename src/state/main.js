@@ -3,7 +3,7 @@ export default {
     {
       id: 'featured',
       title: 'Featured Projects',
-      projects: [],
+      projects: ['unstable', 'trainsmission', 'eclipse'],
     },
     {
       id: 'projects',

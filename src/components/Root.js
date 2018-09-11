@@ -7,7 +7,7 @@ import Nav from './Nav';
 export default (state, actions) => (
   <div class="root">
     <Nav state={state.nav} />
-    <Main state={state.main} />
+    <Main state={state.main} projects={state.projects} />
     <Footer state={state.footer} />
   </div>
 );
