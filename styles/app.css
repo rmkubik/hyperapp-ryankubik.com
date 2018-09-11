@@ -100,9 +100,8 @@ footer a {
   text-decoration: none;
 }
 
-#writing img {
-  max-height: 200px;
-  width: 100%;
+#writing .card div {
+  max-height: 300px;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
