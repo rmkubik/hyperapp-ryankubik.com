@@ -28,7 +28,7 @@ flattenedProjects.forEach((project) => {
 
 const output = `export default ${JSON.stringify(projectMap, null, 2)}`;
 
-fs.writeFile('scripts/test.js', output, (err) => {
+fs.writeFile('scripts/new_projects.js', output, (err) => {
   if (err) {
     return console.log(err);
   }
