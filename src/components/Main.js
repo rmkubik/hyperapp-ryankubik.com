@@ -2,10 +2,6 @@ import { h } from 'hyperapp';
 
 import Section from './Section';
 
-export default (state, actions) => (
-  <main>
-    <Section id="featured" title="Featured Projects" />
-    <Section id="projects" title="All Projects" />
-    <Section id="writing" title="Writing" />
-  </main>
+export default ({ state: { sections } }) => (
+  <main>{sections.map(section => <Section id={section.id} title={section.title} />)}</main>
 );
