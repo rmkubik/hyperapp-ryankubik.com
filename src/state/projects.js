@@ -27,14 +27,14 @@ export default {
       blurb: 'Your desktop is getting out of control!',
     },
   },
-  aHikeintheWoods: {
+  hikeintheWoods: {
     title: 'A Hike in the Woods',
     thumbnail: {
       src: 'assets/images/projects/hike_in_the_woods.gif',
       blurb: 'Wander around in the woods to try and get back to your tent.',
     },
   },
-  aSocialNetwork: {
+  socialNetwork: {
     title: 'A Social Network',
     thumbnail: {
       src: 'assets/images/projects/social_network.png',
@@ -48,28 +48,28 @@ export default {
       blurb: 'Can you find love controlling your human as you get back in the dating game?',
     },
   },
-  'sweet&Spooky': {
+  sweetSpooky: {
     title: 'Sweet & Spooky',
     thumbnail: {
       src: 'assets/images/projects/sweet_n_spooky.gif',
       blurb: 'Explore as far as you can into this spooky mansion in this fast paced shooter.',
     },
   },
-  proceduralVoxelTerrainGenerator: {
+  voxelTerrain: {
     title: 'Procedural Voxel Terrain Generator',
     thumbnail: {
       src: 'assets/images/projects/terrain_gen.png',
       blurb: 'Fly around procedurally generated terrain inside a custom built voxel engine.',
     },
   },
-  "gottaMatch'EmAll": {
+  matchEmAll: {
     title: "Gotta Match 'Em All",
     thumbnail: {
       src: 'assets/images/projects/matchem.png',
       blurb: 'Match all the pokemon copies together in this Pokemon inspired concentration game.',
     },
   },
-  'a*PathfindingDemo': {
+  aStarDemo: {
     title: 'A* Pathfinding Demo',
     thumbnail: {
       src: 'assets/images/projects/pathfinder.png',
@@ -83,14 +83,14 @@ export default {
       blurb: 'Promotional site for Global Game Jam 2018 game, Trainsmission',
     },
   },
-  editEveryDamnDayCalendar: {
+  editEveryDamnDay: {
     title: 'Edit Every Damn Day Calendar',
     thumbnail: {
       src: 'assets/images/projects/calendar.png',
       blurb: '30 seconds of video edited every day by @AldenRoth2 on Instagram',
     },
   },
-  'robotsvs.AliensTwitterBot': {
+  robotsVsAliens: {
     title: 'Robots vs. Aliens Twitter Bot',
     thumbnail: {
       src: 'assets/images/projects/robovsalien.png',
