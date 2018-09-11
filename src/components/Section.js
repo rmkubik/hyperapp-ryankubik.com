@@ -1,8 +1,11 @@
 import { h } from 'hyperapp';
 
+import ProjectCard from './ProjectCard';
+
 export default ({ id, title, projects }) => (
   <section id={id}>
     <h2>{title}</h2>
+    <ProjectCard title="ASDF" src="https://via.placeholder.com/200x200" blurb="asdfasdfasdfaf" />
     <div>
       <h3>Unstable</h3>
       <img src="https://via.placeholder.com/400x300" />
