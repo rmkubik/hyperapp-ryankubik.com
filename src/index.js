@@ -2,7 +2,7 @@ import { app } from 'hyperapp';
 
 import actions from './actions';
 import state from './state';
-import view from './components/Main';
+import view from './components/Root';
 
 const appArgs = [state, actions, view, document.getElementById('app')];
 
