@@ -4,6 +4,8 @@ import actions from './actions';
 import state from './state';
 import view from './components/Root';
 
+import '../styles/mailchimp.css';
+
 const appArgs = [state, actions, view, document.getElementById('app')];
 
 function onMount(main) {}
