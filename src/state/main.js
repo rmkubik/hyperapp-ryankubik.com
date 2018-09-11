@@ -1,3 +1,5 @@
+import projects from './projects';
+
 export default {
   sections: [
     {
@@ -8,7 +10,7 @@ export default {
     {
       id: 'projects',
       title: 'All Projects',
-      projects: [],
+      projects: Object.keys(projects),
     },
     {
       id: 'writing',
