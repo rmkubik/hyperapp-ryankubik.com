@@ -106,9 +106,6 @@ a.card div:hover {
 }
 
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
   text-align: center;
   background-color: #636e72;
   margin-top: 75px;
