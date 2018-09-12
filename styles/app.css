@@ -63,22 +63,31 @@ nav > a {
   text-align: center;
 }
 
+footer a:hover,
 nav a:hover {
   color: #2d3436;
   transition: all 0.2s ease-in-out;
 }
 
-nav a:hover svg {
+footer a:hover .icon,
+nav a:hover .icon {
   fill: #2d3436;
   transition: all 0.2s ease-in-out;
 }
 
-nav svg {
-  max-width: 24px;
+nav .icon,
+footer .icon {
+  fill: #fff;
+}
+
+nav .icon {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
-  fill: white;
+}
+
+.icon svg {
+  max-height: 24px;
 }
 
 img {
@@ -120,9 +129,8 @@ footer a {
   text-decoration: none;
 }
 
-footer a:hover {
-  color: #2d3436;
-  transition: all 0.2s ease-in-out;
+footer .icon {
+  margin-top: 15px;
 }
 
 #writing .card div {

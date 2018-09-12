@@ -1,8 +1,11 @@
 import { h } from 'hyperapp';
 
 import MailingListSignUp from './MailingListSignUp';
+import Icon from './Icon';
 
-export default ({ state: { links } }) => (
+import upArrowImage from '../../assets/images/icons/chevron-top.svg';
+
+export default () => (
   <footer>
     {/* links.map(link => (
       <div>
@@ -10,5 +13,8 @@ export default ({ state: { links } }) => (
       </div>
   )) */}
     <MailingListSignUp />
+    <a href="#nav">
+      <Icon icon={upArrowImage} />
+    </a>
   </footer>
 );
