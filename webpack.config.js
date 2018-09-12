@@ -7,7 +7,7 @@ const webpack = require('webpack');
 
 const plugins = [
   new HtmlWebpackPlugin({
-    title: 'Hyperapp One',
+    title: 'Ryan Kubik',
     template: './src/index.html',
   }),
   new ScriptExtHtmlWebpackPlugin({

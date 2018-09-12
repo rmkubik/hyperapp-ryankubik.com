@@ -11,8 +11,8 @@ const OUTPUT_DIR = './dist';
 
 const plugins = [
   new HtmlWebpackPlugin({
-    title: 'Hyperapp One',
-    template: './src/index.html',
+    title: 'Ryan Kubik',
+    template: './src/index.prod.html',
     filename: path.join(__dirname, OUTPUT_DIR, './index.html'),
   }),
   new ScriptExtHtmlWebpackPlugin({
