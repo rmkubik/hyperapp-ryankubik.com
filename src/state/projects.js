@@ -1,6 +1,6 @@
 import eclipseThumbnailImage from '../../assets/images/projects/eclipse.png';
 import trainsmissionThumbnailImage from '../../assets/images/projects/trainsmission.png';
-import unstableThumbnailImage from '../../assets/images/projects/unstable_pre_alpha_2.png';
+import unstableThumbnailImage from '../../assets/images/projects/unstable-title-screen.gif';
 import infiniteIconsThumbnailImage from '../../assets/images/projects/infinite_icons.png';
 import socialNetworkThumbnailImage from '../../assets/images/projects/social_network.png';
 import hikeintheWoodsThumbnailImage from '../../assets/images/projects/hike_in_the_woods.gif';
