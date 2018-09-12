@@ -7,7 +7,7 @@ import hikeintheWoodsThumbnailImage from '../../assets/images/projects/hike_in_t
 import lobsterbotomyThumbnailImage from '../../assets/images/projects/lobsterbotomy.gif';
 import sweetSpookyThumbnailImage from '../../assets/images/projects/sweet_n_spooky.gif';
 import voxelTerrainThumbnailImage from '../../assets/images/projects/terrain_gen.png';
-import matcheEmAllThumbnailImage from '../../assets/images/projects/matchem.png';
+import matchEmAllThumbnailImage from '../../assets/images/projects/matchem.png';
 import aStarDemoThumbnailImage from '../../assets/images/projects/pathfinder.png';
 import trainsmissionProductPageThumbnailImage from '../../assets/images/projects/trainsmission-site.png';
 import editEveryDamnDayThumbnailImage from '../../assets/images/projects/calendar.png';
@@ -157,10 +157,10 @@ export default {
   matchEmAll: {
     title: "Gotta Match 'Em All",
     thumbnail: {
-      src: matcheEmAllThumbnailImage,
+      src: matchEmAllThumbnailImage,
       blurb: 'Match all the pokemon copies together in this Pokemon inspired concentration game.',
     },
-    link: 'https://ryankubik.com/matchem/matchem.php',
+    link: 'https://r-k.io/matchem/',
   },
   aStarDemo: {
     title: 'A* Pathfinding Demo',
