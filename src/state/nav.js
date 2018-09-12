@@ -32,7 +32,7 @@ export default {
     },
     {
       text: 'Mailing List',
-      link: 'https://r-k.io/mail.html',
+      link: '#mc_embed_signup',
       icon: envelopeOpenIconImage,
     },
   ],
