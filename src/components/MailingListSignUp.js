@@ -2,7 +2,7 @@ import { h } from 'hyperapp';
 
 export default () => (
   <div>
-    {"Sign up to hear updates on what I'm working on:"}
+    <h3>Mailing List</h3>
     <div id="mc_embed_signup">
       <form
         action="https://ryankubik.us17.list-manage.com/subscribe/post?u=9b8c018898653292cbe3711f0&amp;id=57cdfbb895"
@@ -44,6 +44,7 @@ export default () => (
           </div>
         </div>
       </form>
+      {"Sign up to hear updates on what I'm working on!"}
     </div>
   </div>
 );
