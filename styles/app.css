@@ -137,12 +137,32 @@ footer .icon {
   max-height: 300px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (max-width: 750px) {
   section {
-    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'header header';
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  section {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'header';
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  nav {
+    flex-wrap: wrap;
   }
 
-  img {
-    max-width: 100%;
+  nav > h1 {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  nav > a {
+    flex-basis: 100%;
   }
 }
