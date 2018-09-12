@@ -12,6 +12,13 @@ import aStarDemoThumbnailImage from '../../assets/images/projects/pathfinder.png
 import trainsmissionProductPageThumbnailImage from '../../assets/images/projects/trainsmission-site.png';
 import editEveryDamnDayThumbnailImage from '../../assets/images/projects/calendar.png';
 import robotsVsAliensThumbnailImage from '../../assets/images/projects/robovsalien.png';
+import nightSkyThumbnailimage from '../../assets/images/projects/night-sky.gif';
+import simpleDungeonGeneratorThumbnailImage from '../../assets/images/projects/simple-dungeon-generator.gif';
+import bandYoureDealtThumbnailImage from '../../assets/images/projects/band-youre-dealt.jpg';
+import jazzmanThumbnailImage from '../../assets/images/projects/jazzman.jpg';
+import shoemonThumbnailImage from '../../assets/images/projects/shoemon-boot.png';
+import langangaThumbnailImage from '../../assets/images/projects/langanga-title.png';
+import wildfireThumbnailImage from '../../assets/images/projects/conways-wildfire.gif';
 
 export default {
   eclipse: {
@@ -46,6 +53,58 @@ export default {
     },
     link: 'https://ldjam.com/events/ludum-dare/40/infinite-desktop-icons',
   },
+  wildfire: {
+    title: 'Wildfire',
+    thumbnail: {
+      src: wildfireThumbnailImage,
+      blurb:
+        "A mix up of Conway's Game of Life with a tile swapping mechanic. Save as many houses as you can from being destroyed in the fire.",
+    },
+    link: 'https://law5guy.itch.io/wildfire',
+  },
+  trainsmissionProductPage: {
+    title: 'Trainsmission Product Page',
+    thumbnail: {
+      src: trainsmissionProductPageThumbnailImage,
+      blurb: 'Promotional site for Global Game Jam 2018 game, Trainsmission.',
+    },
+    link: 'http://www.trainsmission.com',
+  },
+  jazzman: {
+    title: 'The Jazzman',
+    thumbnail: {
+      src: jazzmanThumbnailImage,
+      blurb:
+        'An escape-room game for a small group of people where the goal is to translate, crack, and solve a variety of puzzles.',
+    },
+    link: 'https://conto.itch.io/jazzman',
+  },
+  shoemon: {
+    title: 'Shoé-mon',
+    thumbnail: {
+      src: shoemonThumbnailImage,
+      blurb:
+        "A parody of the monster catching genre of games built in a week for PIGSquad's Summer Slow Jams.",
+    },
+    link: 'https://law5guy.itch.io/shoes',
+  },
+  langanga: {
+    title: 'Langanga',
+    thumbnail: {
+      src: langangaThumbnailImage,
+      blurb: 'Langanga is a narrative platformer made in a week for the PIGSquad Summer Slow Jams.',
+    },
+    link: 'https://law5guy.itch.io/langanga',
+  },
+  bandYoureDealt: {
+    title: "The Band You're Dealt",
+    thumbnail: {
+      src: bandYoureDealtThumbnailImage,
+      blurb:
+        'A board game for 3 - 6 players! Draw band members, and battle to be the best band in town.',
+    },
+    link: 'https://wesdoes.itch.io/the-band-youre-dealt',
+  },
   hikeintheWoods: {
     title: 'A Hike in the Woods',
     thumbnail: {
@@ -69,6 +128,15 @@ export default {
       blurb: 'Can you find love controlling your human as you get back in the dating game?',
     },
     link: 'https://wvugamedevelopers.itch.io/lobsterbotomy',
+  },
+  simpleDungeonGenerator: {
+    title: 'Simple Dungeon Generator',
+    thumbnail: {
+      src: simpleDungeonGeneratorThumbnailImage,
+      blurb:
+        'Randomly distributed rooms as a Rogulike dungeong generation experiment build on CodePen.',
+    },
+    link: 'https://codepen.io/rmkubik/pen/rrKZYr',
   },
   sweetSpooky: {
     title: 'Sweet & Spooky',
@@ -102,14 +170,6 @@ export default {
     },
     link: 'https://law5guy.itch.io/astar-pathfinder-demo',
   },
-  trainsmissionProductPage: {
-    title: 'Trainsmission Product Page',
-    thumbnail: {
-      src: trainsmissionProductPageThumbnailImage,
-      blurb: 'Promotional site for Global Game Jam 2018 game, Trainsmission.',
-    },
-    link: 'http://www.trainsmission.com',
-  },
   editEveryDamnDay: {
     title: 'Edit Every Damn Day Calendar',
     thumbnail: {
@@ -125,5 +185,13 @@ export default {
       blurb: 'A simulation of robots fighting aliens hourly',
     },
     link: 'https://github.com/rmkubik/robovsalien',
+  },
+  nightSky: {
+    title: 'Ascii Night Sky',
+    thumbnail: {
+      src: nightSkyThumbnailimage,
+      blurb: 'A gently twinkling night sky with randomly distributed stars build on CodePen.',
+    },
+    link: 'https://codepen.io/rmkubik/pen/bMZBMw?editors=0110',
   },
 };
