@@ -4,6 +4,7 @@ const MinifyPlugin = require('babel-minify-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 
 const OUTPUT_DIR = './dist';
@@ -24,6 +25,7 @@ const plugins = [
   new UglifyJsPlugin(),
   new MinifyPlugin(),
   new webpack.optimize.ModuleConcatenationPlugin(),
+  new CopyWebpackPlugin([{ from: 'favicons', to: '' }]),
 ];
 
 module.exports = () => ({
