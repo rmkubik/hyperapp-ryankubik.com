@@ -1,5 +1,4 @@
 import projects from './projects';
-import writing from './writing';
 
 const {
   unstable, trainsmission, eclipse, ...allOtherProjects
@@ -16,11 +15,6 @@ export default {
       id: 'projects',
       title: 'All Projects',
       projects: Object.values(allOtherProjects),
-    },
-    {
-      id: 'writing',
-      title: 'Writing',
-      projects: Object.values(writing),
     },
   ],
 };

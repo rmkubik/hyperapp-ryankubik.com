@@ -11,8 +11,8 @@ export default {
   },
   links: [
     {
-      text: 'Writing',
-      link: '#writing',
+      text: 'Blog',
+      link: '/blog',
       icon: writingIconImage,
     },
     {
