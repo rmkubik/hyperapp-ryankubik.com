@@ -19,7 +19,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
-  grid-template-areas: 'header header header';
+  grid-template-areas: "header header header";
   margin-top: 15px;
 }
 
@@ -140,14 +140,14 @@ footer .icon {
 @media only screen and (max-width: 750px) {
   section {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'header header';
+    grid-template-areas: "header header";
   }
 }
 
 @media only screen and (max-width: 560px) {
   section {
     grid-template-columns: 1fr;
-    grid-template-areas: 'header';
+    grid-template-areas: "header";
   }
 }
 
@@ -171,4 +171,9 @@ footer .icon {
     margin-right: 20px;
     display: inline-block;
   }
+}
+
+/* Add spacing between input field and button */
+#mc_embed_signup input.email {
+  margin-right: 10px;
 }
