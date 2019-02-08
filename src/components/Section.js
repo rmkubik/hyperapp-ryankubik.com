@@ -1,6 +1,6 @@
-import { h } from 'hyperapp';
+import { h } from "hyperapp";
 
-import ProjectCard from './ProjectCard';
+import ProjectCard from "./ProjectCard";
 
 export default ({ id, title, projects }) => (
   <section id={id}>
@@ -11,6 +11,7 @@ export default ({ id, title, projects }) => (
         src={project.thumbnail.src}
         blurb={project.thumbnail.blurb}
         link={project.link}
+        links={project.links}
       />
     ))}
   </section>
