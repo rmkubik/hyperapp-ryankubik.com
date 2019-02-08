@@ -80,6 +80,11 @@ export default {
         description: "A blog post with an early look at how Unstable evolved.",
         href:
           "https://medium.com/@ryrykubes/core-mechanics-game-design-in-unstable-8dae1bcfae40"
+      },
+      {
+        description:
+          "The original early version of Unstable created for Jamuary with the Lostcast community.",
+        href: "https://law5guy.itch.io/unstable"
       }
     ]
   },
