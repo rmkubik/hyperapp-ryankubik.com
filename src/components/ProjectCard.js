@@ -1,11 +1,13 @@
 import { h } from "hyperapp";
 
 export default ({ title, src, blurb, link, links = [] }) => (
-  <a class="card" href={link}>
-    <h3>{title}</h3>
-    <div>
-      <img src={src} />
-    </div>
+  <article>
+    <a class="card" href={link}>
+      <h3>{title}</h3>
+      <div>
+        <img src={src} />
+      </div>
+    </a>
     <p>{blurb}</p>
     <ul>
       {links.map(aLink => (
@@ -14,5 +16,5 @@ export default ({ title, src, blurb, link, links = [] }) => (
         </li>
       ))}
     </ul>
-  </a>
+  </article>
 );
