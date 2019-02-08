@@ -36,13 +36,18 @@ export default {
         description:
           'Read my retrospective about making "Make for the Waves!" on my blog.',
         href: "https://ryankubik.com/blog/deliberate-game-jamming/"
+      },
+      {
+        description:
+          "A video of the gameplay on the last day of the jam posted on Twitter",
+        href: "https://twitter.com/ryrykubes/status/1089723719453310976"
       }
     ]
   },
   eclipse: {
     title: "Eclipse",
     thumbnail: {
-      blurb: "Enjoy the view! Created in an evening for Ludum Dare 42, submit.",
+      blurb: "Enjoy the view! Created in an evening for Ludum Dare 42.",
       src: eclipseThumbnailImage
     },
     link: "https://law5guy.itch.io/eclipse"
@@ -51,35 +56,78 @@ export default {
     title: "Trainsmission",
     thumbnail: {
       src: trainsmissionThumbnailImage,
-      blurb: "Can you get to the bottom of the murder mystery?"
+      blurb:
+        "Can you get to the bottom of the murder mystery? Built in 48 hours for Global Game Jam 2018 in Unity."
     },
-    link: "https://law5guy.itch.io/trainsmission"
+    link: "https://law5guy.itch.io/trainsmission",
+    links: [
+      {
+        description: "Official submission page.",
+        href: "https://globalgamejam.org/2018/games/trainsmission-0"
+      }
+    ]
   },
   unstable: {
     title: "Unstable",
     thumbnail: {
       src: unstableThumbnailImage,
       blurb:
-        "Adventure through a series of different worlds to find your way back home."
+        "Adventure through a series of different worlds to find your way back home. Built with Phaser and published on Kongregate."
     },
-    link: "https://unstablegame.com"
+    link: "https://unstablegame.com",
+    links: [
+      {
+        description: "A blog post with an early look at how Unstable evolved.",
+        href:
+          "https://medium.com/@ryrykubes/core-mechanics-game-design-in-unstable-8dae1bcfae40"
+      }
+    ]
   },
   infiniteIcons: {
     title: "Infinite Icons",
     thumbnail: {
       src: infiniteIconsThumbnailImage,
-      blurb: "Your desktop is getting out of control!"
+      blurb:
+        "Your desktop is getting out of control! Build in 48 hours using React for Ludum Dare 40."
     },
-    link: "https://ldjam.com/events/ludum-dare/40/infinite-desktop-icons"
+    link: "https://law5guy.itch.io/infinite-desktop-icons",
+    links: [
+      {
+        description: "Official submission page",
+        href: "https://ldjam.com/events/ludum-dare/40/infinite-desktop-icons"
+      },
+      {
+        description:
+          "A devlog chronicling the development of Infinite Icons over the jam weekend",
+        href:
+          "https://ldjam.com/events/ludum-dare/40/infinite-desktop-icons/ld-40-devlog-infinite-desktop-icons"
+      }
+    ]
   },
   wildfire: {
     title: "Wildfire",
     thumbnail: {
       src: wildfireImage,
       blurb:
-        "A mix up of Conway's Game of Life with a tile swapping mechanic. Save as many houses as you can from being destroyed in the fire. Being built in Phaser & React."
+        "A mix up of Conway's Game of Life with a tile swapping mechanic. Save as many houses as you can from being destroyed in the fire. This project was originally created in an evening as a late entry to Ludum Dare 41. Its currently being rebuilt as a polished game using Redux to stitch together Phaser & React. "
     },
-    link: "https://law5guy.itch.io/wildfire"
+    link: "",
+    links: [
+      {
+        description:
+          "Experimentation with randomly generating levels shared on Twitter",
+        href: "https://twitter.com/ryrykubes/status/1093224809541128192"
+      },
+      {
+        description:
+          "The level editor in the remake version demoed on Twitter with old sprites",
+        href: "https://twitter.com/ryrykubes/status/1084138688668405760"
+      },
+      {
+        description: "Play the original version of the idea from Ludum Dare 41",
+        href: "https://law5guy.itch.io/wildfire"
+      }
+    ]
   },
   trainsmissionProductPage: {
     title: "Trainsmission Product Page",
@@ -94,7 +142,7 @@ export default {
     thumbnail: {
       src: jazzmanThumbnailImage,
       blurb:
-        "An escape-room game for a small group of people where the goal is to translate, crack, and solve a variety of puzzles."
+        "An escape-room game for a small group of people where the goal is to translate, crack, and solve a variety of puzzles. The Jazzman is a physical suitcase with puzzling journal entires left behind by a crazed investigator. It has an web-site companion built in Hyperapp. Built in a week for PIGSquad Summer Slow Jams 2018 for the theme Location."
     },
     link: "https://conto.itch.io/jazzman"
   },
@@ -103,7 +151,7 @@ export default {
     thumbnail: {
       src: shoemonThumbnailImage,
       blurb:
-        "A parody of the monster catching genre of games built in a week for PIGSquad's Summer Slow Jams."
+        "A parody of the monster catching genre of games built in a week for PIGSquad's Summer Slow Jams for the theme Boot Leg. This project was built using Hyperapp."
     },
     link: "https://law5guy.itch.io/shoes"
   },
@@ -112,7 +160,7 @@ export default {
     thumbnail: {
       src: langangaThumbnailImage,
       blurb:
-        "Langanga is a narrative platformer made in a week for the PIGSquad Summer Slow Jams."
+        "Langanga is a narrative platformer made in a week for the PIGSquad Summer Slow Jams. Built using Game Maker Studio."
     },
     link: "https://law5guy.itch.io/langanga"
   },
@@ -121,7 +169,7 @@ export default {
     thumbnail: {
       src: bandYoureDealtThumbnailImage,
       blurb:
-        "A board game for 3 - 6 players! Draw band members, and battle to be the best band in town."
+        "A card game for 3 - 6 players! Draw band members, and battle to be the best band in town."
     },
     link: "https://wesdoes.itch.io/the-band-youre-dealt"
   },
@@ -129,7 +177,8 @@ export default {
     title: "A Hike in the Woods",
     thumbnail: {
       src: hikeintheWoodsThumbnailImage,
-      blurb: "Wander around in the woods to try and get back to your tent."
+      blurb:
+        "Wander around in the woods to try and get back to your tent. This was built for JS13k, a competition to build a web game in under 13kb. It was built on top of HTML5 Canvas with no external libraries."
     },
     link: "http://js13kgames.com/entries/a-hike-in-the-woods"
   },
@@ -138,16 +187,23 @@ export default {
     thumbnail: {
       src: socialNetworkThumbnailImage,
       blurb:
-        "A little social network simulation. Connect all of the computers and people!"
+        "A little social network simulation. Connect all of the computers and people! This project was built using Phaser."
     },
-    link: "https://ldjam.com/events/ludum-dare/38/a-social-network"
+    link: "https://ldjam.com/events/ludum-dare/38/a-social-network",
+    links: [
+      {
+        description:
+          "I shared a post-mortem looking at how I could improve in the future",
+        href: "https://medium.com/@ryrykubes/tools-tech-1e49c3a080d7"
+      }
+    ]
   },
   lobsterbotomy: {
     title: "Lobsterbotomy",
     thumbnail: {
       src: lobsterbotomyThumbnailImage,
       blurb:
-        "Can you find love controlling your human as you get back in the dating game?"
+        "Can you find love controlling your human as you get back in the dating game? This project was built using LIBGDX."
     },
     link: "https://wvugamedevelopers.itch.io/lobsterbotomy"
   },
@@ -165,7 +221,7 @@ export default {
     thumbnail: {
       src: sweetSpookyThumbnailImage,
       blurb:
-        "Explore as far as you can into this spooky mansion in this fast paced shooter."
+        "Explore as far as you can into this spooky mansion in this fast paced shooter. This project was built for Game Maker 48 jam in Game Maker Studio."
     },
     link: "http://www.gm48.net/game/?id=331"
   },
@@ -174,7 +230,7 @@ export default {
     thumbnail: {
       src: voxelTerrainThumbnailImage,
       blurb:
-        "Fly around procedurally generated terrain inside a custom built voxel engine."
+        "Fly around procedurally generated terrain inside a custom built voxel engine. This project was built on top of LIBGDX as an experiment over a long weekend."
     },
     link: ""
   },
@@ -183,7 +239,7 @@ export default {
     thumbnail: {
       src: matchEmAllThumbnailImage,
       blurb:
-        "Match all the pokemon copies together in this Pokemon inspired concentration game."
+        "Match all the pokemon copies together in this Pokemon inspired concentration game. Built with Phaser."
     },
     link: "https://r-k.io/matchem/"
   },
@@ -192,7 +248,7 @@ export default {
     thumbnail: {
       src: aStarDemoThumbnailImage,
       blurb:
-        "Place piles of gold and flood tiles to entice adventurers to move around the map."
+        "Place piles of gold and flood tiles to entice adventurers to move around the map. Built with Phaser."
     },
     link: "https://law5guy.itch.io/astar-pathfinder-demo"
   },
@@ -208,7 +264,8 @@ export default {
     title: "Robots vs. Aliens Twitter Bot",
     thumbnail: {
       src: robotsVsAliensThumbnailImage,
-      blurb: "A simulation of robots fighting aliens hourly"
+      blurb:
+        "A simulation of robots fighting aliens hourly. Build using a Python script deployed to Heroku. The script runs hourly, advances an internal simulation, tweets the result to Twitter, and persists state in between script executions using MemCachier."
     },
     link: "https://github.com/rmkubik/robovsalien"
   },
@@ -217,7 +274,7 @@ export default {
     thumbnail: {
       src: nightSkyThumbnailimage,
       blurb:
-        "A gently twinkling night sky with randomly distributed stars build on CodePen."
+        "A gently twinkling night sky with randomly distributed stars built on CodePen."
     },
     link: "https://codepen.io/rmkubik/pen/bMZBMw?editors=0110"
   }
