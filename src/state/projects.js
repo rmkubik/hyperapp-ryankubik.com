@@ -116,7 +116,7 @@ export default {
       blurb:
         "A mix up of Conway's Game of Life with a tile swapping mechanic. Save as many houses as you can from being destroyed in the fire. This project was originally created in an evening as a late entry to Ludum Dare 41. Its currently being rebuilt as a polished game using Redux to stitch together Phaser & React. "
     },
-    link: "https://r-k.io/wildfire",
+    link: "https://wildfire.fun",
     links: [
       {
         description:
@@ -130,7 +130,7 @@ export default {
       },
       {
         description: "Play the original version of the idea from Ludum Dare 41",
-        href: "https://law5guy.itch.io/wildfire"
+        href: "https://law5guy.itch.io/wildfire-jam"
       }
     ]
   },
