@@ -30,7 +30,7 @@ export default {
         "Race down the beach as a baby turtle using your phone as a controller! Built using Air Console, an in browser console that allowed your friends to play games together with your phones as controllers. This was build for Global Game Jam 2019.",
       src: shelloWorldImage
     },
-    link: "https://globalgamejam.org/2019/games/make-waves",
+    link: "https://www.airconsole.com/play/sport-games/make-for-the-waves",
     links: [
       {
         description:
@@ -41,6 +41,10 @@ export default {
         description:
           "A video of the gameplay on the last day of the jam posted on Twitter",
         href: "https://twitter.com/ryrykubes/status/1089723719453310976"
+      },
+      {
+        description: "Original global game jam submission",
+        href: "https://globalgamejam.org/2019/games/make-waves"
       }
     ]
   },
