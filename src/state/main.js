@@ -1,18 +1,25 @@
 import projects from "./projects";
 
-const { unstable, wildfire, shelloWorld, ...allOtherProjects } = projects;
+const {
+  feedbackNight,
+  wildfire,
+  shelloWorld,
+  unstable,
+  trainsmission,
+  ...allOtherProjects
+} = projects;
 
 export default {
   sections: [
     {
       id: "featured",
       title: "Featured Projects",
-      projects: Object.values([wildfire, shelloWorld, unstable])
+      projects: Object.values([wildfire, feedbackNight, shelloWorld])
     },
     {
       id: "projects",
       title: "All Projects",
-      projects: Object.values(allOtherProjects)
+      projects: [unstable, trainsmission, ...Object.values(allOtherProjects)]
     }
   ]
 };

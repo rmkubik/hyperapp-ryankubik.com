@@ -21,6 +21,7 @@ import langangaThumbnailImage from "../../assets/images/projects/langanga-title.
 import wildfireThumbnailImage from "../../assets/images/projects/conways-wildfire.gif";
 import shelloWorldImage from "../../assets/images/projects/shello-world-title.png";
 import wildfireImage from "../../assets/images/projects/wildfire-success-modal.gif";
+import feedbackNightImage from "../../assets/images/projects/feedback_night_img_square.png";
 
 export default {
   shelloWorld: {
@@ -286,5 +287,14 @@ export default {
         "A gently twinkling night sky with randomly distributed stars built on CodePen."
     },
     link: "https://codepen.io/rmkubik/pen/bMZBMw?editors=0110"
+  },
+  feedbackNight: {
+    title: "Feedback Night",
+    thumbnail: {
+      src: feedbackNightImage,
+      blurb:
+        "It can be hard to find folks to playtest your in development games. This is a group where local Portland game developers can meet and review eachothers games."
+    },
+    link: "https://r-k.io/feedback-night.html"
   }
 };
