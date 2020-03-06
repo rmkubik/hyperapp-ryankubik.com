@@ -6,6 +6,7 @@ const {
   shelloWorld,
   unstable,
   trainsmission,
+  grimRepair,
   ...allOtherProjects
 } = projects;
 
@@ -14,12 +15,17 @@ export default {
     {
       id: "featured",
       title: "Featured Projects",
-      projects: Object.values([wildfire, feedbackNight, shelloWorld])
+      projects: Object.values([wildfire, feedbackNight, grimRepair])
     },
     {
       id: "projects",
       title: "All Projects",
-      projects: [unstable, trainsmission, ...Object.values(allOtherProjects)]
+      projects: [
+        shelloWorld,
+        unstable,
+        trainsmission,
+        ...Object.values(allOtherProjects)
+      ]
     }
   ]
 };

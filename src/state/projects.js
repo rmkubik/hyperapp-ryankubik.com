@@ -22,13 +22,14 @@ import wildfireThumbnailImage from "../../assets/images/projects/conways-wildfir
 import shelloWorldImage from "../../assets/images/projects/shello-world-title.png";
 import wildfireImage from "../../assets/images/projects/wildfire-success-modal.gif";
 import feedbackNightImage from "../../assets/images/projects/feedback_night_img_square.png";
+import grimRepairImage from "../../assets/images/projects/repair-sink-sequence.gif";
 
 export default {
   shelloWorld: {
     title: "Make for the Waves!",
     thumbnail: {
       blurb:
-        "Race down the beach as a baby turtle using your phone as a controller! Built using Air Console, an in browser console that allowed your friends to play games together with your phones as controllers. This was build for Global Game Jam 2019.",
+        "Race down the beach as a baby turtle using your phone as a controller! Built using Air Console, an in browser console that allowed your friends to play games together with your phones as controllers. This was built for Global Game Jam 2019.",
       src: shelloWorldImage
     },
     link: "https://www.airconsole.com/play/sport-games/make-for-the-waves",
@@ -296,5 +297,14 @@ export default {
         "It can be hard to find folks to playtest your in development games. This is a group where local Portland game developers can meet and review eachothers games."
     },
     link: "https://r-k.io/feedback-night.html"
+  },
+  grimRepair: {
+    title: "Grim Repair",
+    thumbnail: {
+      src: grimRepairImage,
+      blurb:
+        "Set sail on the maiden voyage of the Grim Repair! Created in 48 hours for Global Game Jam 2020."
+    },
+    link: "https://drewtooroo.itch.io/grim-repair"
   }
 };
